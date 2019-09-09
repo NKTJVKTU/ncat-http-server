@@ -1,0 +1,3 @@
+(echo -e "HTTP/1.1 200\nContent-Disposition: attachment; 
+filename=gena_na.png\nContent-Type: application/octet-
+stream\nConnection: close\n"; cat vim_mrxvt.png ) | nc -vv -l -p 8080
